@@ -497,7 +497,7 @@ body.vaporwave #chat_send:active {
 
 @media screen and (max-height: 550px) {
   #page_login {
-    background-image: url("../img/logon/logo.png"), url("../img/logon/topleft.png");
+    background-image: url("../img/logon/logo (1).png"), url("../img/logon/topleft.png");
     background-position: center, 0 -100px;
     background-size: auto, auto;
     background-repeat: no-repeat;
