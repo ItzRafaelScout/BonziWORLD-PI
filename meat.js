@@ -148,7 +148,7 @@ let userCommands = {
     },
 	"image": function(imgRaw) {
         var img = this.private.sanitize ? sanitize(imgRaw) : imgRaw;
-        this.room.emit("youtube", {
+        this.room.emit("image", {
             guid: this.guid,
             vid: img
         });
