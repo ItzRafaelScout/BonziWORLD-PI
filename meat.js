@@ -146,6 +146,13 @@ let userCommands = {
             vid: vid
         });
     },
+	"image": function(imgRaw) {
+        var img = this.private.sanitize ? sanitize(imgRaw) : imgRaw;
+        this.room.emit("youtube", {
+            guid: this.guid,
+            vid: img
+        });
+    },
     "backflip": function(swag) {
         this.room.emit("backflip", {
             guid: this.guid,
